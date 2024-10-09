@@ -1,0 +1,140 @@
+---Google Colab---
+-1-
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Đọc dữ liệu từ tệp CSV
+df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/congngheKHDL/Dulieutieuluan/dulieulamsang.csv")
+print(df.describe())
+
+-2-
+#Xem thông tin chung
+print(df.head())
+
+-3-
+print("\nCác dòng cuối cùng của DataFrame:")
+print(df.tail())
+
+-4-
+!pip install pandas scikit-learn matplotlib seaborn
+
+-5-
+train_results <- train_fit %>%
+  # Make the predictions and save the predicted values
+  predict(new_data = train_data) %>%
+  # Create a new column to save the true values
+  mutate(truth = train_data$ArrDelayMinutes)
+
+head(train_results)
+
+-6-
+from mlxtend.frequent_patterns import apriori
+from mlxtend.frequent_patterns import association_rules
+import pandas as pd
+
+data = {'Patient_ID': [1, 2, 3, 4, 5],
+        'Age': [1, 0, 1, 1, 0],
+        'Gender': [1, 1, 0, 1, 1],
+        'Pre_Surgery_Health': [0, 1, 1, 1, 0]}
+df = pd.DataFrame(data)
+
+frequent_itemsets = apriori(df.drop(columns=['Patient_ID']), min_support=0.5, use_colnames=True)
+
+# Tìm các luật kết hợp từ tập luật kết hợp đã tìm được
+rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
+
+# In ra các luật kết hợp
+print(rules)
+
+-7-
+# Tính toán độ chính xác của mô hình
+accuracy = model.score(X_test, y_test)
+
+# In ra độ chính xác của mô hình
+print("Độ chính xác của mô hình:", accuracy)
+
+-8-
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/congngheKHDL/Dulieutieuluan/dulieulamsang.csv")
+
+df.set_index('Age', inplace=True)
+
+ax = sns.boxplot(data=df)
+
+plt.rcParams["figure.dpi"] = 300
+plt.xlabel("Trực quan hóa dữ liệu", size=12)
+plt.ylabel("Số lượng bệnh nhân", size=12)
+plt.show()
+
+-9-
+import matplotlib.pyplot as plt
+import numpy as np
+
+y = np.array([45, 25, 29, 11])
+
+
+df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/congngheKHDL/Dulieutieuluan/dulieulamsang.csv")
+mylabels = ["Pre_Surgery_Health", "Procedure_Type", "Surgery_Duration", "Recovery_Days"]
+
+myexplode = [0.1, 0, 0, 0]
+plt.pie(y, labels = mylabels, explode = myexplode, shadow = True)
+plt.legend(loc='best',fontsize=7)
+plt.show()
+
+-10-
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+
+# Đọc dữ liệu từ tập tin CSV vào DataFrame
+df_train = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/congngheKHDL/Dulieutieuluan/dulieulamsang.csv')
+df_test = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/congngheKHDL/Dulieutieuluan/benhnhan.csv')
+
+# Chọn các đặc trưng (features) và biến mục tiêu (target variable)
+X_train = df_train.drop(columns=['target'])  # Chọn tất cả các cột ngoại trừ cột mục tiêu
+y_train = df_train['target']  # Chọn cột mục tiêu
+
+X_test = df_test.drop(columns=['target'])
+y_test = df_test['target']
+
+# Khởi tạo một danh sách chứa các độ chính xác của mô hình trên từng tập dữ liệu
+accuracies_train = []
+accuracies_test = []
+
+# Huấn luyện mô hình và tính toán độ chính xác trên từng tập dữ liệu
+for i in range(10):  # Thực hiện 10 lần chạy
+    # Chia dữ liệu thành tập huấn luyện và tập kiểm tra
+    X_train_split, _, y_train_split, _ = train_test_split(X_train, y_train, test_size=0.2, random_state=i)
+
+    # Khởi tạo và huấn luyện mô hình
+    model = LogisticRegression()
+    model.fit(X_train_split, y_train_split)
+
+    # Độ chính xác trên tập huấn luyện
+    train_accuracy = accuracy_score(y_train_split, model.predict(X_train_split))
+    accuracies_train.append(train_accuracy)
+
+    # Độ chính xác trên tập kiểm tra
+    test_accuracy = accuracy_score(y_test, model.predict(X_test))
+    accuracies_test.append(test_accuracy)
+
+# Vẽ đồ thị
+plt.plot(range(1, 11), accuracies_train, marker='o', label='Độ chính xác trên tập huấn luyện')
+plt.plot(range(1, 11), accuracies_test, marker='o', label='Độ chính xác trên tập kiểm tra')
+plt.xlabel('Lần chạy thứ i')
+plt.ylabel('Độ chính xác')
+plt.title('So sánh độ chính xác của mô hình trên hai tập dữ liệu')
+plt.xticks(range(1, 11))
+plt.legend()
+plt.grid(True)
+plt.show()
+
+---
