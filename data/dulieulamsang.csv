@@ -1,0 +1,505 @@
+Patient_ID,Age,Gender,Pre_Surgery_Health,Procedure_Type,Surgery_Duration,Recovery_Days,Complications
+001,65,F,Hypertension,Hip Replacement,120,14,None
+002,72,M,Diabetes,Heart Bypass,150,21,Infection
+003,55,F,Healthy,Knee Arthroscopy,90,10,None
+004,60,M,Hypertension,Appendectomy,60,7,Bleeding
+005,45,F,Diabetes,Cholecystectomy,75,5,None
+006,65,F,Hypertension,Hip Replacement,120,14,None
+007,72,M,Diabetes,Heart Bypass,150,21,Infection
+008,55,F,Healthy,Knee Arthroscopy,90,10,None
+009,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0010,45,F,Diabetes,Cholecystectomy,75,5,None
+0011,65,F,Hypertension,Hip Replacement,120,14,None
+0012,72,M,Diabetes,Heart Bypass,150,21,Infection
+0013,55,F,Healthy,Knee Arthroscopy,90,10,None
+0014,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0015,45,F,Diabetes,Cholecystectomy,75,5,None
+0016,65,F,Hypertension,Hip Replacement,120,14,None
+0017,72,M,Diabetes,Heart Bypass,150,21,Infection
+0018,55,F,Healthy,Knee Arthroscopy,90,10,None
+0019,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0020,45,F,Diabetes,Cholecystectomy,75,5,None
+0021,65,F,Hypertension,Hip Replacement,120,14,None
+0022,72,M,Diabetes,Heart Bypass,150,21,Infection
+0023,55,F,Healthy,Knee Arthroscopy,90,10,None
+0024,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0025,45,F,Diabetes,Cholecystectomy,75,5,None
+0026,65,F,Hypertension,Hip Replacement,120,14,None
+0027,72,M,Diabetes,Heart Bypass,150,21,Infection
+0028,55,F,Healthy,Knee Arthroscopy,90,10,None
+0029,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0030,45,F,Diabetes,Cholecystectomy,75,5,None
+0031,65,F,Hypertension,Hip Replacement,120,14,None
+0032,72,M,Diabetes,Heart Bypass,150,21,Infection
+0033,55,F,Healthy,Knee Arthroscopy,90,10,None
+0034,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0035,45,F,Diabetes,Cholecystectomy,75,5,None
+0036,65,F,Hypertension,Hip Replacement,120,14,None
+0037,72,M,Diabetes,Heart Bypass,150,21,Infection
+0038,55,F,Healthy,Knee Arthroscopy,90,10,None
+0039,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0040,45,F,Diabetes,Cholecystectomy,75,5,None
+0041,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0042,45,F,Diabetes,Cholecystectomy,75,5,None
+0043,65,F,Hypertension,Hip Replacement,120,14,None
+0044,72,M,Diabetes,Heart Bypass,150,21,Infection
+0045,55,F,Healthy,Knee Arthroscopy,90,10,None
+0046,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0047,45,F,Diabetes,Cholecystectomy,75,5,None
+0048,65,F,Hypertension,Hip Replacement,120,14,None
+0049,72,M,Diabetes,Heart Bypass,150,21,Infection
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+001,65,F,Hypertension,Hip Replacement,120,14,None
+002,72,M,Diabetes,Heart Bypass,150,21,Infection
+003,55,F,Healthy,Knee Arthroscopy,90,10,None
+004,60,M,Hypertension,Appendectomy,60,7,Bleeding
+005,45,F,Diabetes,Cholecystectomy,75,5,None
+006,65,F,Hypertension,Hip Replacement,120,14,None
+007,72,M,Diabetes,Heart Bypass,150,21,Infection
+008,55,F,Healthy,Knee Arthroscopy,90,10,None
+009,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0010,45,F,Diabetes,Cholecystectomy,75,5,None
+0011,65,F,Hypertension,Hip Replacement,120,14,None
+0012,72,M,Diabetes,Heart Bypass,150,21,Infection
+0013,55,F,Healthy,Knee Arthroscopy,90,10,None
+0014,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0015,45,F,Diabetes,Cholecystectomy,75,5,None
+0016,65,F,Hypertension,Hip Replacement,120,14,None
+0017,72,M,Diabetes,Heart Bypass,150,21,Infection
+0018,55,F,Healthy,Knee Arthroscopy,90,10,None
+0019,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0020,45,F,Diabetes,Cholecystectomy,75,5,None
+0021,65,F,Hypertension,Hip Replacement,120,14,None
+0022,72,M,Diabetes,Heart Bypass,150,21,Infection
+0023,55,F,Healthy,Knee Arthroscopy,90,10,None
+0024,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0025,45,F,Diabetes,Cholecystectomy,75,5,None
+0026,65,F,Hypertension,Hip Replacement,120,14,None
+0027,72,M,Diabetes,Heart Bypass,150,21,Infection
+0028,55,F,Healthy,Knee Arthroscopy,90,10,None
+0029,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0030,45,F,Diabetes,Cholecystectomy,75,5,None
+0031,65,F,Hypertension,Hip Replacement,120,14,None
+0032,72,M,Diabetes,Heart Bypass,150,21,Infection
+0033,55,F,Healthy,Knee Arthroscopy,90,10,None
+0034,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0035,45,F,Diabetes,Cholecystectomy,75,5,None
+0036,65,F,Hypertension,Hip Replacement,120,14,None
+0037,72,M,Diabetes,Heart Bypass,150,21,Infection
+0038,55,F,Healthy,Knee Arthroscopy,90,10,None
+0039,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0040,45,F,Diabetes,Cholecystectomy,75,5,None
+0041,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0042,45,F,Diabetes,Cholecystectomy,75,5,None
+0043,65,F,Hypertension,Hip Replacement,120,14,None
+0044,72,M,Diabetes,Heart Bypass,150,21,Infection
+0045,55,F,Healthy,Knee Arthroscopy,90,10,None
+0046,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0047,45,F,Diabetes,Cholecystectomy,75,5,None
+0048,65,F,Hypertension,Hip Replacement,120,14,None
+0049,72,M,Diabetes,Heart Bypass,150,21,Infection
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0050,55,F,Healthy,Knee Arthroscopy,90,10,None
+0051,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0052,45,F,Diabetes,Cholecystectomy,75,5,None
+0053,65,F,Hypertension,Hip Replacement,120,14,None
+0054,72,M,Diabetes,Heart Bypass,150,21,Infection
+0055,55,F,Healthy,Knee Arthroscopy,90,10,None
+0056,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0057,55,F,Healthy,Knee Arthroscopy,90,10,None
+0058,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0059,45,F,Diabetes,Cholecystectomy,75,5,None
+0060,65,F,Hypertension,Hip Replacement,120,14,None
+0061,72,M,Diabetes,Heart Bypass,150,21,Infection
+0062,55,F,Healthy,Knee Arthroscopy,90,10,None
+0063,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0064,45,F,Diabetes,Cholecystectomy,75,5,None
+0065,65,F,Hypertension,Hip Replacement,120,14,None
+0066,72,M,Diabetes,Heart Bypass,150,21,Infection
+0067,55,F,Healthy,Knee Arthroscopy,90,10,None
+0068,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0069,45,F,Diabetes,Cholecystectomy,75,5,None
+0070,65,F,Hypertension,Hip Replacement,120,14,None
+0071,72,M,Diabetes,Heart Bypass,150,21,Infection
+0072,55,F,Healthy,Knee Arthroscopy,90,10,None
+0073,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0074,45,F,Diabetes,Cholecystectomy,75,5,None
+0075,65,F,Hypertension,Hip Replacement,120,14,None
+0076,72,M,Diabetes,Heart Bypass,150,21,Infection
+0077,55,F,Healthy,Knee Arthroscopy,90,10,None
+0078,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0079,45,F,Diabetes,Cholecystectomy,75,5,None
+0080,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0081,45,F,Diabetes,Cholecystectomy,75,5,None
+0082,65,F,Hypertension,Hip Replacement,120,14,None
+0083,72,M,Diabetes,Heart Bypass,150,21,Infection
+0084,55,F,Healthy,Knee Arthroscopy,90,10,None
+0085,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0086,45,F,Diabetes,Cholecystectomy,75,5,None
+0087,65,F,Hypertension,Hip Replacement,120,14,None
+0088,72,M,Diabetes,Heart Bypass,150,21,Infection
+0089,55,F,Healthy,Knee Arthroscopy,90,10,None
+0090,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0091,45,F,Diabetes,Cholecystectomy,75,5,None
+0092,65,F,Hypertension,Hip Replacement,120,14,None
+0093,72,M,Diabetes,Heart Bypass,150,21,Infection
+0094,55,F,Healthy,Knee Arthroscopy,90,10,None
+0095,60,M,Hypertension,Appendectomy,60,7,Bleeding
+0096,45,F,Diabetes,Cholecystectomy,75,5,None
+0097,65,F,Hypertension,Hip Replacement,120,14,None
+0098,72,M,Diabetes,Heart Bypass,150,21,Infection
+0099,55,F,Healthy,Knee Arthroscopy,90,10,None
+00100,60,M,Hypertension,Appendectomy,60,7,Bleeding
